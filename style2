@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: silver;
+    font-family: "Poppins", sans-serif;
+  }
+  nav {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    padding: 3rem 10rem;
+    justify-content: space-between;
+  }
+  
+  .container {
+    height: 100vh;
+  }
+  .container img {
+    width: 100%;
+    position: absolute;
+    height: 110vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .main-title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    font-size: 6rem;
+    transform: translate(-50%, -30%);
+  }
+  
+  .content {
+    width: 100%;
+    background: rgb(24, 24, 24);
+    min-height: 100vh;
+    z-index: 2;
+    position: absolute;
+  }
+  .content-images {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 60vh;
+    text-align: center;
+  }
+  
+  .text {
+    padding: 2rem 20rem;
+    font-size: 1.1rem;
+  }
+  .hero{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(bg.jpg);
+    background-position: center;
+    background-size: cover; 
+    position: absolute;
+
+  }
+  .form-box{
+      width: 380px;
+      height: 480px;
+      position: relative; 
+      margin: 6% auto;
+      background: #fff;
+      padding: 5px;
+      overflow: hidden;
+  }
+  .button-box{
+      width: 220px;
+      margin: 35px auto;
+      position: relative;
+      box-shadow: 0 0 20px 9px #ff61241f;
+      border-radius: 30px;
+
+  }
+  
+
+  .toggle-btn{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    
+  }
+  #btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px; 
+    height: 100%;
+    background: linear-gradient(to right, #ff105f,#ffad06);
+    border-radius: 30px; 
+    transition: .5s;    
+  }
+  .input-group{
+      top: 180px;
+      position: absolute;
+      width: 280px;
+      transition: .5s;
+  }
+  .input-field{
+      width: 100%;
+      padding: 10px 0;
+      margin: 5px 0;
+      border-left: 0 ;
+      border-top: 0;
+      border-right: 0;
+      border-bottom: 1px solid #999;
+      background: transparent;
+
+  }
+  .submit-btn{
+      width: 85%;
+      padding: 10px 30px;
+      cursor: pointer;
+      display: block;
+      margin: auto;
+      background: linear-gradient(to right, #ff105f,#ffad06);
+      border: 0;
+      outline: none;
+      border-radius: 30px;
+    
+  }
+  .check-box{
+      margin: 30px 10px 30px 0;
+
+  }
+  span{
+      color: #777;
+      font-size: 12px;
+      bottom: 68px;
+      position: absolute;
+
+  }
+  #login{
+      left: 50px;
+  }
+  #register{
+    left: 450px;
+}
